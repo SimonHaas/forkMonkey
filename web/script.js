@@ -392,8 +392,8 @@ const ForkMonkey = {
         // Get actual SVG for this entry (use svg_filename if available)
         const svgContent = await this.getEvolutionSvg(entry.timestamp, entry.svg_filename);
         const svgDisplay = svgContent
-            ? `<div style="width: 200px; height: 200px; margin: 0 auto;">${svgContent}</div>`
-            : '<div style="font-size: 4rem; margin-bottom: 16px;">🐵</div>';
+            ? svgContent
+            : '<div style="font-size: 4rem;">🐵</div>';
 
         const date = new Date(entry.timestamp);
         const dateStr = date.toLocaleDateString('en-US', {
@@ -413,38 +413,50 @@ const ForkMonkey = {
         `).join('');
 
         const content = `
-            <div style="text-align: center; margin-bottom: 24px;">
-                ${svgDisplay}
-                <h3 style="color: var(--primary); font-family: var(--font-display); font-size: 0.9rem; margin-top: 16px;">${dateStr}</h3>
-            </div>
-            
-            <div style="margin-bottom: 24px;">
-                <h4 style="color: var(--primary); margin-bottom: 12px;">📖 Story</h4>
-                <p style="color: var(--text-secondary); line-height: 1.6;">${entry.story || 'Evolution occurred'}</p>
-            </div>
-            
-            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 24px;">
-                <div style="text-align: center; padding: 16px; background: var(--bg-card); border-radius: 8px;">
-                    <div style="color: var(--text-muted); font-size: 0.8rem;">Generation</div>
-                    <div style="color: var(--primary); font-size: 1.5rem; font-weight: bold;">${entry.generation}</div>
+            <div class="evolution-detail-modal">
+                <!-- Date Header -->
+                <div style="text-align: center; margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border-subtle);">
+                    <h3 style="color: var(--primary); font-family: var(--font-display); font-size: 0.85rem; letter-spacing: 1px;">${dateStr}</h3>
                 </div>
-                <div style="text-align: center; padding: 16px; background: var(--bg-card); border-radius: 8px;">
-                    <div style="color: var(--text-muted); font-size: 0.8rem;">Rarity</div>
-                    <div style="color: var(--gold); font-size: 1.5rem; font-weight: bold;">${(entry.rarity_score || 0).toFixed(1)}%</div>
+                
+                <!-- Monkey Image Container -->
+                <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 24px; background: radial-gradient(circle, rgba(0, 255, 136, 0.05) 0%, transparent 70%); border-radius: 16px; padding: 20px;">
+                    <div style="width: 180px; height: 180px; display: flex; align-items: center; justify-content: center;">
+                        ${svgDisplay}
+                    </div>
                 </div>
-                <div style="text-align: center; padding: 16px; background: var(--bg-card); border-radius: 8px;">
-                    <div style="color: var(--text-muted); font-size: 0.8rem;">Mutations</div>
-                    <div style="color: var(--accent); font-size: 1.5rem; font-weight: bold;">${entry.mutation_count || 0}</div>
+                
+                <!-- Story Section -->
+                <div style="margin-bottom: 24px; background: var(--bg-card); padding: 16px; border-radius: 12px; border-left: 3px solid var(--primary);">
+                    <h4 style="color: var(--primary); margin-bottom: 12px; font-size: 0.9rem;">📖 Story</h4>
+                    <p style="color: var(--text-secondary); line-height: 1.6; font-size: 0.9rem;">${entry.story || 'Evolution occurred'}</p>
                 </div>
-                <div style="text-align: center; padding: 16px; background: var(--bg-card); border-radius: 8px;">
-                    <div style="color: var(--text-muted); font-size: 0.8rem;">DNA Hash</div>
-                    <div style="color: var(--text-secondary); font-size: 0.8rem; font-family: var(--font-mono);">${entry.dna_hash || 'N/A'}</div>
+                
+                <!-- Stats Grid -->
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 24px;">
+                    <div style="text-align: center; padding: 16px; background: var(--bg-card); border-radius: 12px; border: 1px solid var(--border-subtle);">
+                        <div style="color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px;">Generation</div>
+                        <div style="color: var(--primary); font-size: 1.5rem; font-weight: bold; margin-top: 4px;">${entry.generation}</div>
+                    </div>
+                    <div style="text-align: center; padding: 16px; background: var(--bg-card); border-radius: 12px; border: 1px solid var(--border-subtle);">
+                        <div style="color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px;">Rarity</div>
+                        <div style="color: var(--gold); font-size: 1.5rem; font-weight: bold; margin-top: 4px;">${(entry.rarity_score || 0).toFixed(1)}%</div>
+                    </div>
+                    <div style="text-align: center; padding: 16px; background: var(--bg-card); border-radius: 12px; border: 1px solid var(--border-subtle);">
+                        <div style="color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px;">Mutations</div>
+                        <div style="color: var(--accent); font-size: 1.5rem; font-weight: bold; margin-top: 4px;">${entry.mutation_count || 0}</div>
+                    </div>
+                    <div style="text-align: center; padding: 16px; background: var(--bg-card); border-radius: 12px; border: 1px solid var(--border-subtle);">
+                        <div style="color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px;">DNA Hash</div>
+                        <div style="color: var(--text-secondary); font-size: 0.7rem; font-family: var(--font-mono); margin-top: 8px; word-break: break-all;">${entry.dna_hash || 'N/A'}</div>
+                    </div>
                 </div>
-            </div>
-            
-            <div>
-                <h4 style="color: var(--primary); margin-bottom: 12px;">✨ Traits</h4>
-                ${traitsHtml}
+                
+                <!-- Traits Section -->
+                <div style="background: var(--bg-card); padding: 16px; border-radius: 12px;">
+                    <h4 style="color: var(--primary); margin-bottom: 12px; font-size: 0.9rem;">✨ Traits</h4>
+                    ${traitsHtml}
+                </div>
             </div>
         `;
 
