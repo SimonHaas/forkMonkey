@@ -2,7 +2,7 @@
   "dna_hash": "fad73fad016517ff",
   "generation": 1,
   "age_days": 0,
-  "mutation_count": 1,
+  "mutation_count": 2,
   "rarity_score": 15.0,
   "parent_id": null,
   "traits": {
@@ -31,5 +31,5 @@
       "rarity": "common"
     }
   },
-  "last_updated": "2025-12-26T00:37:49.427510"
+  "last_updated": "2025-12-27T00:36:57.490343"
 }
