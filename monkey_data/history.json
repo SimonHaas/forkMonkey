@@ -254,6 +254,23 @@
       },
       "story": "Your monkey rested today. No visible changes.",
       "svg_filename": "2025-12-28_00-43_monkey.svg"
+    },
+    {
+      "timestamp": "2025-12-29T00:41:44.641258",
+      "dna_hash": "cd8f1059e78661c9",
+      "generation": 1,
+      "mutation_count": 3,
+      "rarity_score": 15.0,
+      "traits": {
+        "body_color": "beige",
+        "face_expression": "cool",
+        "accessory": "sunglasses",
+        "pattern": "gradient",
+        "background": "city",
+        "special": "none"
+      },
+      "story": "Your monkey evolved! Changes: pattern: spots \u2192 gradient",
+      "svg_filename": "2025-12-29_00-41_monkey.svg"
     }
   ]
 }
