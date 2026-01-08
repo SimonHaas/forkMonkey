@@ -49,105 +49,26 @@
     </linearGradient>
     <clipPath id="head-clip"><ellipse cx="200" cy="200" rx="110" ry="115"/></clipPath>
 </defs>
-<rect width="400" height="400" fill="#2C3E50"/>
-<rect x="0" y="267" width="50" height="133" fill="#1A202C"/>
-<rect x="22" y="277" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="36" y="277" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="22" y="295" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="36" y="295" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="22" y="313" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="36" y="313" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="22" y="331" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="36" y="331" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="22" y="349" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="36" y="349" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="22" y="367" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="36" y="367" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="22" y="385" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="36" y="385" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="60" y="294" width="50" height="106" fill="#1A202C"/>
-<rect x="68" y="304" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="96" y="304" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="68" y="322" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="96" y="322" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="68" y="340" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="96" y="340" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="68" y="358" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="96" y="358" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="68" y="376" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="96" y="376" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="120" y="321" width="50" height="79" fill="#1A202C"/>
-<rect x="128" y="331" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="142" y="331" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="128" y="349" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="142" y="349" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="128" y="367" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="142" y="367" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="128" y="385" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="142" y="385" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="180" y="258" width="50" height="142" fill="#1A202C"/>
-<rect x="202" y="268" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="216" y="268" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="202" y="286" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="216" y="286" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="202" y="304" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="216" y="304" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="202" y="322" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="216" y="322" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="202" y="340" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="216" y="340" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="202" y="358" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="216" y="358" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="202" y="376" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="216" y="376" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="240" y="285" width="50" height="115" fill="#1A202C"/>
-<rect x="248" y="295" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="276" y="295" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="248" y="313" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="276" y="313" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="248" y="331" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="276" y="331" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="248" y="349" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="276" y="349" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="248" y="367" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="276" y="367" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="248" y="385" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="276" y="385" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="300" y="312" width="50" height="88" fill="#1A202C"/>
-<rect x="308" y="322" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="322" y="322" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="308" y="340" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="322" y="340" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="308" y="358" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="322" y="358" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="308" y="376" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="322" y="376" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="360" y="249" width="50" height="151" fill="#1A202C"/>
-<rect x="382" y="259" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="396" y="259" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="382" y="277" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="396" y="277" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="382" y="295" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="396" y="295" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="382" y="313" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="396" y="313" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="382" y="331" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="396" y="331" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="382" y="349" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="396" y="349" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="382" y="367" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="396" y="367" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="382" y="385" width="6" height="8" fill="#FFD700" opacity="0.6"/>
-<rect x="396" y="385" width="6" height="8" fill="#FFD700" opacity="0.6"/>
+<rect width="400" height="400" fill="#1A4D1A"/>
+<polygon points="40,380 20,380 40,330" fill="#0D3D0D" opacity="0.5"/>
+<polygon points="40,380 60,380 40,330" fill="#1A5C1A" opacity="0.5"/>
+<polygon points="120,380 100,380 120,309" fill="#0D3D0D" opacity="0.5"/>
+<polygon points="120,380 140,380 120,309" fill="#1A5C1A" opacity="0.5"/>
+<polygon points="200,380 180,380 200,318" fill="#0D3D0D" opacity="0.5"/>
+<polygon points="200,380 220,380 200,318" fill="#1A5C1A" opacity="0.5"/>
+<polygon points="280,380 260,380 280,327" fill="#0D3D0D" opacity="0.5"/>
+<polygon points="280,380 300,380 280,327" fill="#1A5C1A" opacity="0.5"/>
+<polygon points="360,380 340,380 360,306" fill="#0D3D0D" opacity="0.5"/>
+<polygon points="360,380 380,380 360,306" fill="#1A5C1A" opacity="0.5"/>
 
-<ellipse cx="115" cy="140" rx="45" ry="50" fill="#F5F5DC" filter="url(#shadow)"/>
+<ellipse cx="115" cy="140" rx="45" ry="50" fill="#8B4513" filter="url(#shadow)"/>
 <ellipse cx="115" cy="140" rx="30" ry="35" fill="#FFB6C1"/>
 <ellipse cx="115" cy="145" rx="18" ry="22" fill="#FF9999"/>
-<ellipse cx="285" cy="140" rx="45" ry="50" fill="#F5F5DC" filter="url(#shadow)"/>
+<ellipse cx="285" cy="140" rx="45" ry="50" fill="#8B4513" filter="url(#shadow)"/>
 <ellipse cx="285" cy="140" rx="30" ry="35" fill="#FFB6C1"/>
 <ellipse cx="285" cy="145" rx="18" ry="22" fill="#FF9999"/>
-<ellipse cx="200" cy="200" rx="110" ry="115" fill="#F5F5DC" filter="url(#shadow)"/>
-<ellipse cx="180" cy="140" rx="50" ry="30" fill="#FFFFF0" opacity="0.3"/>
+<ellipse cx="200" cy="200" rx="110" ry="115" fill="#8B4513" filter="url(#shadow)"/>
+<ellipse cx="180" cy="140" rx="50" ry="30" fill="#A0522D" opacity="0.3"/>
 <g clip-path="url(#head-clip)"><ellipse cx="200" cy="200" rx="110" ry="115" fill="url(#sky-gradient)" opacity="0.25"/></g>
 <ellipse cx="200" cy="235" rx="70" ry="60" fill="#FFDAB9"/>
 <ellipse cx="200" cy="250" rx="55" ry="40" fill="#DEB887" opacity="0.3"/>
