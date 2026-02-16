@@ -49,17 +49,10 @@
     </linearGradient>
     <clipPath id="head-clip"><ellipse cx="200" cy="200" rx="110" ry="115"/></clipPath>
 </defs>
-<rect width="400" height="400" fill="#1A4D1A"/>
-<polygon points="40,380 20,380 40,330" fill="#0D3D0D" opacity="0.5"/>
-<polygon points="40,380 60,380 40,330" fill="#1A5C1A" opacity="0.5"/>
-<polygon points="120,380 100,380 120,318" fill="#0D3D0D" opacity="0.5"/>
-<polygon points="120,380 140,380 120,318" fill="#1A5C1A" opacity="0.5"/>
-<polygon points="200,380 180,380 200,306" fill="#0D3D0D" opacity="0.5"/>
-<polygon points="200,380 220,380 200,306" fill="#1A5C1A" opacity="0.5"/>
-<polygon points="280,380 260,380 280,324" fill="#0D3D0D" opacity="0.5"/>
-<polygon points="280,380 300,380 280,324" fill="#1A5C1A" opacity="0.5"/>
-<polygon points="360,380 340,380 360,312" fill="#0D3D0D" opacity="0.5"/>
-<polygon points="360,380 380,380 360,312" fill="#1A5C1A" opacity="0.5"/>
+<rect width="400" height="400" fill="#F0E68C"/>
+<path d="M0 350 Q100 338 200 350 T400 350" fill="#4169E1" opacity="0.25"/>
+<path d="M0 365 Q100 353 200 365 T400 365" fill="#4169E1" opacity="0.19"/>
+<path d="M0 380 Q100 368 200 380 T400 380" fill="#4169E1" opacity="0.13"/>
 
 <ellipse cx="115" cy="140" rx="45" ry="50" fill="#D2B48C" filter="url(#shadow)"/>
 <ellipse cx="115" cy="140" rx="30" ry="35" fill="#FFB6C1"/>
@@ -69,7 +62,7 @@
 <ellipse cx="285" cy="145" rx="18" ry="22" fill="#FF9999"/>
 <ellipse cx="200" cy="200" rx="110" ry="115" fill="#D2B48C" filter="url(#shadow)"/>
 <ellipse cx="180" cy="140" rx="50" ry="30" fill="#E8D4B8" opacity="0.3"/>
-<g clip-path="url(#head-clip)"><text x="120" y="120" font-size="18" fill="#FFD700" opacity="0.5">★</text><text x="196" y="244" font-size="18" fill="#FFD700" opacity="0.5">★</text><text x="272" y="208" font-size="18" fill="#FFD700" opacity="0.5">★</text><text x="188" y="172" font-size="18" fill="#FFD700" opacity="0.5">★</text><text x="264" y="136" font-size="18" fill="#FFD700" opacity="0.5">★</text><text x="180" y="260" font-size="18" fill="#FFD700" opacity="0.5">★</text><text x="256" y="224" font-size="18" fill="#FFD700" opacity="0.5">★</text><text x="172" y="188" font-size="18" fill="#FFD700" opacity="0.5">★</text></g>
+<g clip-path="url(#head-clip)"><text x="120" y="120" font-size="18" fill="#FFD700" opacity="0.5">★</text><text x="163" y="127" font-size="18" fill="#FFD700" opacity="0.5">★</text><text x="206" y="134" font-size="18" fill="#FFD700" opacity="0.5">★</text><text x="249" y="141" font-size="18" fill="#FFD700" opacity="0.5">★</text><text x="132" y="148" font-size="18" fill="#FFD700" opacity="0.5">★</text><text x="175" y="155" font-size="18" fill="#FFD700" opacity="0.5">★</text><text x="218" y="162" font-size="18" fill="#FFD700" opacity="0.5">★</text><text x="261" y="169" font-size="18" fill="#FFD700" opacity="0.5">★</text></g>
 <ellipse cx="200" cy="235" rx="70" ry="60" fill="#FFDAB9"/>
 <ellipse cx="200" cy="250" rx="55" ry="40" fill="#DEB887" opacity="0.3"/>
 <ellipse cx="162" cy="185" rx="22" ry="24" fill="#000" opacity="0.08"/>
