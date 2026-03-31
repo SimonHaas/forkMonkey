@@ -1818,6 +1818,23 @@
       },
       "story": "Your monkey evolved! Changes: body_color: tan \u2192 beige",
       "svg_filename": "2026-03-30_00-54_monkey.svg"
+    },
+    {
+      "timestamp": "2026-03-31T00:51:45.931540",
+      "dna_hash": "8d1a7eba60063236",
+      "generation": 1,
+      "mutation_count": 63,
+      "rarity_score": 13.333333333333334,
+      "traits": {
+        "body_color": "beige",
+        "face_expression": "neutral",
+        "accessory": "monocle",
+        "pattern": "gradient",
+        "background": "city",
+        "special": "none"
+      },
+      "story": "Your monkey evolved! Changes: accessory: bow \u2192 monocle",
+      "svg_filename": "2026-03-31_00-51_monkey.svg"
     }
   ]
 }
