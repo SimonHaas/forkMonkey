@@ -49,27 +49,17 @@
     </linearGradient>
     <clipPath id="head-clip"><ellipse cx="200" cy="200" rx="110" ry="115"/></clipPath>
 </defs>
-<rect width="400" height="400" fill="#1A4D1A"/>
-<polygon points="40,380 20,380 40,330" fill="#0D3D0D" opacity="0.5"/>
-<polygon points="40,380 60,380 40,330" fill="#1A5C1A" opacity="0.5"/>
-<polygon points="120,380 100,380 120,329" fill="#0D3D0D" opacity="0.5"/>
-<polygon points="120,380 140,380 120,329" fill="#1A5C1A" opacity="0.5"/>
-<polygon points="200,380 180,380 200,328" fill="#0D3D0D" opacity="0.5"/>
-<polygon points="200,380 220,380 200,328" fill="#1A5C1A" opacity="0.5"/>
-<polygon points="280,380 260,380 280,327" fill="#0D3D0D" opacity="0.5"/>
-<polygon points="280,380 300,380 280,327" fill="#1A5C1A" opacity="0.5"/>
-<polygon points="360,380 340,380 360,326" fill="#0D3D0D" opacity="0.5"/>
-<polygon points="360,380 380,380 360,326" fill="#1A5C1A" opacity="0.5"/>
+<rect width="400" height="400" fill="url(#aurora-gradient)"/>
 
-<ellipse cx="115" cy="140" rx="45" ry="50" fill="#FFD700" filter="url(#shadow)"/>
+<ellipse cx="115" cy="140" rx="45" ry="50" fill="#C0C0C0" filter="url(#shadow)"/>
 <ellipse cx="115" cy="140" rx="30" ry="35" fill="#FFB6C1"/>
 <ellipse cx="115" cy="145" rx="18" ry="22" fill="#FF9999"/>
-<ellipse cx="285" cy="140" rx="45" ry="50" fill="#FFD700" filter="url(#shadow)"/>
+<ellipse cx="285" cy="140" rx="45" ry="50" fill="#C0C0C0" filter="url(#shadow)"/>
 <ellipse cx="285" cy="140" rx="30" ry="35" fill="#FFB6C1"/>
 <ellipse cx="285" cy="145" rx="18" ry="22" fill="#FF9999"/>
-<ellipse cx="200" cy="200" rx="110" ry="115" fill="#FFD700" filter="url(#shadow)"/>
-<ellipse cx="180" cy="140" rx="50" ry="30" fill="#FFEC8B" opacity="0.3"/>
-<g clip-path="url(#head-clip)"><circle cx="110" cy="110" r="12" fill="#000" opacity="0.12"/><circle cx="117" cy="121" r="12" fill="#000" opacity="0.12"/><circle cx="124" cy="132" r="12" fill="#000" opacity="0.12"/><circle cx="131" cy="143" r="12" fill="#000" opacity="0.12"/><circle cx="138" cy="154" r="12" fill="#000" opacity="0.12"/><circle cx="145" cy="165" r="12" fill="#000" opacity="0.12"/><circle cx="152" cy="176" r="12" fill="#000" opacity="0.12"/><circle cx="159" cy="187" r="12" fill="#000" opacity="0.12"/><circle cx="166" cy="198" r="12" fill="#000" opacity="0.12"/><circle cx="173" cy="209" r="12" fill="#000" opacity="0.12"/></g>
+<ellipse cx="200" cy="200" rx="110" ry="115" fill="#C0C0C0" filter="url(#shadow)"/>
+<ellipse cx="180" cy="140" rx="50" ry="30" fill="#E8E8E8" opacity="0.3"/>
+<g clip-path="url(#head-clip)"><circle cx="110" cy="110" r="12" fill="#000" opacity="0.12"/><circle cx="147" cy="271" r="12" fill="#000" opacity="0.12"/><circle cx="184" cy="252" r="12" fill="#000" opacity="0.12"/><circle cx="221" cy="233" r="12" fill="#000" opacity="0.12"/><circle cx="258" cy="214" r="12" fill="#000" opacity="0.12"/><circle cx="115" cy="195" r="12" fill="#000" opacity="0.12"/><circle cx="152" cy="176" r="12" fill="#000" opacity="0.12"/><circle cx="189" cy="157" r="12" fill="#000" opacity="0.12"/><circle cx="226" cy="138" r="12" fill="#000" opacity="0.12"/><circle cx="263" cy="119" r="12" fill="#000" opacity="0.12"/></g>
 <ellipse cx="200" cy="235" rx="70" ry="60" fill="#FFDAB9"/>
 <ellipse cx="200" cy="250" rx="55" ry="40" fill="#DEB887" opacity="0.3"/>
 <ellipse cx="162" cy="185" rx="22" ry="24" fill="#000" opacity="0.08"/>
