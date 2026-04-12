@@ -2022,6 +2022,23 @@
       },
       "story": "Your monkey evolved! Changes: body_color: golden \u2192 silver, background: forest \u2192 aurora",
       "svg_filename": "2026-04-11_00-50_monkey.svg"
+    },
+    {
+      "timestamp": "2026-04-12T00:57:27.408473",
+      "dna_hash": "f5233f0370e79eaa",
+      "generation": 1,
+      "mutation_count": 73,
+      "rarity_score": 20.0,
+      "traits": {
+        "body_color": "silver",
+        "face_expression": "happy",
+        "accessory": "monocle",
+        "pattern": "spots",
+        "background": "aurora",
+        "special": "none"
+      },
+      "story": "Your monkey evolved! Changes: face_expression: sleepy \u2192 happy",
+      "svg_filename": "2026-04-12_00-57_monkey.svg"
     }
   ]
 }
