@@ -3127,6 +3127,23 @@
       },
       "story": "Your monkey evolved! Changes: face_expression: sleepy \u2192 neutral",
       "svg_filename": "2026-06-15_01-24_monkey.svg"
+    },
+    {
+      "timestamp": "2026-06-16T01:25:28.439733",
+      "dna_hash": "54abb702eab943bf",
+      "generation": 1,
+      "mutation_count": 109,
+      "rarity_score": 30.0,
+      "traits": {
+        "body_color": "pink",
+        "face_expression": "neutral",
+        "accessory": "none",
+        "pattern": "spots",
+        "background": "underwater",
+        "special": "particles"
+      },
+      "story": "Your monkey evolved! Changes: pattern: gradient \u2192 spots, special: aura \u2192 particles",
+      "svg_filename": "2026-06-16_01-25_monkey.svg"
     }
   ]
 }
