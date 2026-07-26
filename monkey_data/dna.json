@@ -1,8 +1,8 @@
 {
   "generation": 1,
   "parent_id": null,
-  "dna_hash": "2fb9a6f924aae666",
-  "mutation_count": 131,
+  "dna_hash": "69b99faebe420d7c",
+  "mutation_count": 132,
   "birth_timestamp": 847290,
   "traits": {
     "body_color": {
@@ -16,9 +16,9 @@
       "gene_sequence": "593ecbaf"
     },
     "accessory": {
-      "value": "bandana",
+      "value": "none",
       "rarity": "common",
-      "gene_sequence": "eef7e9dc"
+      "gene_sequence": "8f67e8db"
     },
     "pattern": {
       "value": "gradient",
