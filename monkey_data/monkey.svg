@@ -52,21 +52,20 @@
 <rect width="400" height="400" fill="#1A0A00"/>
 <rect x="0" y="340" width="400" height="60" fill="#FF4500" opacity="0.6"/>
 <circle cx="30" cy="375" r="6" fill="#FF6600"/>
-<circle cx="299" cy="375" r="7" fill="#FF6600"/>
-<circle cx="228" cy="375" r="8" fill="#FF6600"/>
-<circle cx="157" cy="375" r="9" fill="#FF6600"/>
-<circle cx="86" cy="375" r="6" fill="#FF6600"/>
-<circle cx="355" cy="375" r="7" fill="#FF6600"/>
+<circle cx="67" cy="375" r="7" fill="#FF6600"/>
+<circle cx="104" cy="375" r="8" fill="#FF6600"/>
+<circle cx="141" cy="375" r="9" fill="#FF6600"/>
+<circle cx="178" cy="375" r="6" fill="#FF6600"/>
+<circle cx="215" cy="375" r="7" fill="#FF6600"/>
 <circle cx="200" cy="200" r="165" fill="none" stroke="#00FFFF" stroke-width="3" opacity="0.25" stroke-dasharray="20,10"/>
-<ellipse cx="115" cy="140" rx="45" ry="50" fill="url(#galaxy-body)" filter="url(#shadow)"/>
+<ellipse cx="115" cy="140" rx="45" ry="50" fill="url(#rainbow-body)" filter="url(#shadow)"/>
 <ellipse cx="115" cy="140" rx="30" ry="35" fill="#FFB6C1"/>
 <ellipse cx="115" cy="145" rx="18" ry="22" fill="#FF9999"/>
-<ellipse cx="285" cy="140" rx="45" ry="50" fill="url(#galaxy-body)" filter="url(#shadow)"/>
+<ellipse cx="285" cy="140" rx="45" ry="50" fill="url(#rainbow-body)" filter="url(#shadow)"/>
 <ellipse cx="285" cy="140" rx="30" ry="35" fill="#FFB6C1"/>
 <ellipse cx="285" cy="145" rx="18" ry="22" fill="#FF9999"/>
-<ellipse cx="200" cy="200" rx="110" ry="115" fill="url(#galaxy-body)" filter="url(#shadow)"/>
-<ellipse cx="180" cy="140" rx="50" ry="30" fill="#E6E6FA" opacity="0.3"/>
-<g clip-path="url(#head-clip)"><circle cx="110" cy="110" r="12" fill="#000" opacity="0.12"/><circle cx="163" cy="219" r="12" fill="#000" opacity="0.12"/><circle cx="216" cy="148" r="12" fill="#000" opacity="0.12"/><circle cx="269" cy="257" r="12" fill="#000" opacity="0.12"/><circle cx="142" cy="186" r="12" fill="#000" opacity="0.12"/><circle cx="195" cy="115" r="12" fill="#000" opacity="0.12"/><circle cx="248" cy="224" r="12" fill="#000" opacity="0.12"/><circle cx="121" cy="153" r="12" fill="#000" opacity="0.12"/><circle cx="174" cy="262" r="12" fill="#000" opacity="0.12"/><circle cx="227" cy="191" r="12" fill="#000" opacity="0.12"/></g>
+<ellipse cx="200" cy="200" rx="110" ry="115" fill="url(#rainbow-body)" filter="url(#shadow)"/>
+<ellipse cx="180" cy="140" rx="50" ry="30" fill="#FFD700" opacity="0.3"/>
 <ellipse cx="200" cy="235" rx="70" ry="60" fill="#FFDAB9"/>
 <ellipse cx="200" cy="250" rx="55" ry="40" fill="#DEB887" opacity="0.3"/>
 <ellipse cx="162" cy="185" rx="22" ry="24" fill="#000" opacity="0.08"/>
