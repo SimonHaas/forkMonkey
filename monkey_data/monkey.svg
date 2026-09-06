@@ -49,14 +49,7 @@
     </linearGradient>
     <clipPath id="head-clip"><ellipse cx="200" cy="200" rx="110" ry="115"/></clipPath>
 </defs>
-<rect width="400" height="400" fill="#1A0A00"/>
-<rect x="0" y="340" width="400" height="60" fill="#FF4500" opacity="0.6"/>
-<circle cx="30" cy="375" r="6" fill="#FF6600"/>
-<circle cx="67" cy="375" r="7" fill="#FF6600"/>
-<circle cx="104" cy="375" r="8" fill="#FF6600"/>
-<circle cx="141" cy="375" r="9" fill="#FF6600"/>
-<circle cx="178" cy="375" r="6" fill="#FF6600"/>
-<circle cx="215" cy="375" r="7" fill="#FF6600"/>
+<rect width="400" height="400" fill="url(#aurora-gradient)"/>
 <circle cx="200" cy="200" r="165" fill="none" stroke="#00FFFF" stroke-width="3" opacity="0.25" stroke-dasharray="20,10"/>
 <ellipse cx="115" cy="140" rx="45" ry="50" fill="url(#rainbow-body)" filter="url(#shadow)"/>
 <ellipse cx="115" cy="140" rx="30" ry="35" fill="#FFB6C1"/>
