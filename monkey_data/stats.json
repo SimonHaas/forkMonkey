@@ -1,8 +1,8 @@
 {
-  "dna_hash": "3fc6467b459ca49f",
+  "dna_hash": "076af130e7994c4d",
   "generation": 1,
   "age_days": 0,
-  "mutation_count": 185,
+  "mutation_count": 186,
   "rarity_score": 55.00000000000001,
   "parent_id": null,
   "traits": {
@@ -15,7 +15,7 @@
       "rarity": "legendary"
     },
     "accessory": {
-      "value": "monocle",
+      "value": "headphones",
       "rarity": "uncommon"
     },
     "pattern": {
@@ -31,5 +31,5 @@
       "rarity": "rare"
     }
   },
-  "last_updated": "2026-10-18T04:12:39.124909"
+  "last_updated": "2026-10-19T04:21:48.588099"
 }
